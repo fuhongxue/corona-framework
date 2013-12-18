@@ -1,0 +1,3 @@
+[submodule "vendor/corona-logger"]
+	path = vendor/corona-logger
+	url = git@github.com:FakeStarBaby/corona-logger.git
