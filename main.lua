@@ -1,12 +1,16 @@
+-- Logger
+local Logger = require("vendor.corona-logger.Logger")
+Logger.setLevel(Logger.LEVEL.DEBUG)
+
 -- Hide the status bar
 display.setStatusBar(display.HiddenStatusBar)
 
 -- System event listener
 local function applicationSystemEventListener(event)
   if event.type == "applicationStart" then
-    print(event.type)
+    Logger.debug(event.type)
   elseif event.type == "applicationExit" then
-    print(event.type)
+    Logger.debug(event.type)
   end
 end
 Runtime:addEventListener("system", applicationSystemEventListener)
