@@ -1,14 +1,6 @@
------------------------------------------------------------------------------------------
---
--- main.lua
---
------------------------------------------------------------------------------------------
+-- Hide the status bar
+display.setStatusBar(display.HiddenStatusBar)
 
--- hide the status bar
-display.setStatusBar( display.HiddenStatusBar )
-
--- include the Corona "storyboard" module
+-- Styoryboard
 local storyboard = require "storyboard"
-
--- load menu screen
-storyboard.gotoScene( "menu" )
+storyboard.purgeOnSceneChange = true
