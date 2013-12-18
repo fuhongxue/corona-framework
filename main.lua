@@ -1,6 +1,8 @@
+-- Requires
+require("config.initializers.requires")
+
 -- Logger
 local Logger = require("vendor.corona-logger.Logger")
-Logger.setLevel(Logger.LEVEL.DEBUG)
 
 -- Hide the status bar
 display.setStatusBar(display.HiddenStatusBar)
