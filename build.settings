@@ -8,6 +8,10 @@ settings = {
     plist = {
       UIStatusBarHidden = false,
       UIPrerenderedIcon = true,
+      CFBundleLocalizations = {
+        "en",
+        "ja",
+      },
       CFBundleIconFiles = {
         "Icon.png",
         "Icon@2x.png",
