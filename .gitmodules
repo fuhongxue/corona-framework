@@ -4,3 +4,6 @@
 [submodule "vendor/corona-device"]
 	path = vendor/corona-device
 	url = git@github.com:FakeStarBaby/corona-device.git
+[submodule "vendor/corona-i18n"]
+	path = vendor/corona-i18n
+	url = git@github.com:FakeStarBaby/corona-i18n.git
