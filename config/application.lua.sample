@@ -1,0 +1,7 @@
+Application = {
+  GA = {
+    GAME_KEY   = "YOUR_GA_GAME_KEY",
+    SECRET_KEY = "YOUR_GA_SECRET_KEY",
+    BUILD_NAME = "1.0",
+  },
+}
