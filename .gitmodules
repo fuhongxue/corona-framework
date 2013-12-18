@@ -7,3 +7,6 @@
 [submodule "vendor/corona-i18n"]
 	path = vendor/corona-i18n
 	url = git@github.com:FakeStarBaby/corona-i18n.git
+[submodule "vendor/corona-memory-check"]
+	path = vendor/corona-memory-check
+	url = git@github.com:FakeStarBaby/corona-memory-check.git
