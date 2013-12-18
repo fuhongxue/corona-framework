@@ -1,4 +1,3 @@
-corona-framework
-================
+# Corona Framework
 
 MVC Framework for Corona SDK.
