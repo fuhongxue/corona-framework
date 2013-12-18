@@ -10,3 +10,6 @@
 [submodule "vendor/corona-memory-check"]
 	path = vendor/corona-memory-check
 	url = git@github.com:FakeStarBaby/corona-memory-check.git
+[submodule "vendor/GA-Corona-SDK"]
+	path = vendor/GA-Corona-SDK
+	url = git@github.com:GameAnalytics/GA-Corona-SDK.git
