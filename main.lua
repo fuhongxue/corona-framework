@@ -16,7 +16,3 @@ local function applicationSystemEventListener(event)
   end
 end
 Runtime:addEventListener("system", applicationSystemEventListener)
-
--- Styoryboard
-local storyboard = require "storyboard"
-storyboard.purgeOnSceneChange = true
